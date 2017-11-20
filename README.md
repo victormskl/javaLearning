@@ -7,6 +7,7 @@ Logging - http://devcolibri.com/3413
 Spring изнутри (работа с бинами, конфигурация и тд) - https://habrahabr.ru/post/222579
 
 Spring AOP (get arg with some annotation):
+
 @Before("execution(public * *(.., @SomeAnnotation (*), ..))")
 public void checkRequiredRequestBody(JoinPoint joinPoint) {
     MethodSignature methodSig = (MethodSignature) joinPoint.getSignature();
