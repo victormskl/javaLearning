@@ -6,6 +6,8 @@ Logging - http://devcolibri.com/3413
 
 Spring изнутри (работа с бинами, конфигурация и тд) - https://habrahabr.ru/post/222579
 
+Spring MVC testing - https://memorynotfound.com/unit-test-spring-mvc-rest-service-junit-mockito/#unit-test-http-get-path-variable
+
 Spring AOP (get arg with some annotation):
 
 @Before("execution(public * *(.., @SomeAnnotation (*), ..))")
